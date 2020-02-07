@@ -281,6 +281,7 @@ body {
         background-color: #FFFFFF;
         transition: transform 0.2s;
         margin-top: -7px;
+        z-index: 2;
     }
     .menu-button:after {
         content: '';
@@ -293,17 +294,21 @@ body {
         background-color: #FFFFFF;
         transition: transform 0.2s;
         margin-top: 7px;
+        z-index: 2;
     }
     .menu-button-active {
         height: 0;
+        z-index: 2;
     }
     .menu-button-active:before {
         transform: rotate(45deg);
         margin-top: 0;
+        z-index: 2;
     }
     .menu-button-active:after {
         transform: rotate(-45deg);
         margin-top: 0;
+        z-index: 2;
     }
     .header {
         display: none;
@@ -317,8 +322,7 @@ body {
         z-index: 1;
     }
     .header-active {
-        display: flex; 
-        z-index: 1;
+        display: flex;
     }
     .logo {
         margin-bottom: 25px;

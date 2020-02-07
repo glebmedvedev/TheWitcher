@@ -268,6 +268,7 @@ body {
         height: 2px;
         background-color: #FFFFFF;
         border: none;
+        z-index: 2;
     }
     .menu-button:before {
         content: '';
@@ -316,7 +317,8 @@ body {
         z-index: 1;
     }
     .header-active {
-        display: flex;
+        display: flex; 
+        z-index: 1;
     }
     .logo {
         margin-bottom: 25px;
